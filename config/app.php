@@ -10,14 +10,12 @@ return array(
    | as mensagens de erro e Notice.
    |
    */
-  'debug' => TRUE,
+  'debug' => true,
 
   /*
    |--------------------------------------------------------------------------
    | Configuração do Fuso horário
    |--------------------------------------------------------------------------
-   |
-   |
    */
   'timezone' => 'UTC',
 
@@ -32,6 +30,13 @@ return array(
 
   /*
    |--------------------------------------------------------------------------
+   | Configuração de Controllers
+   |--------------------------------------------------------------------------
+   */
+  'Controllers' => 'app/Http/Controllers',
+
+  /*
+   |--------------------------------------------------------------------------
    | Autoloaded Service Providers
    |--------------------------------------------------------------------------
    |
@@ -40,7 +45,8 @@ return array(
    |
    */
   'providers' => array(
+
     App\Providers\AppServiceProvider::class,
-    App\Providers\RouteServiceProvider::class
+    App\Providers\AnnotationsServiceProvider::class,
   )
 );
