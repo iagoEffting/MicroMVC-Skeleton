@@ -1,7 +1,10 @@
 {
+  "require": {
+    "pimple/pimple": "~3.0"
+  },
   "autoload": {
     "psr-4": {
-      "LibraryController\\": "LibraryController/",
+      "MicroMVC\\": "MicroMVC/src/",
       "Site\\": "app/"
     }
   }
