@@ -3,8 +3,8 @@
 require_once __DIR__ . "/../vendor/autoload.php";
 
 // Routes
-$route1     = new \MicroMVC\Router\Route("/public", "Site\\Controllers\\IndexController");
-$router     = new \MicroMVC\Router\Router(array($route1));
+$route1     = new \MicroMVC\Routing\Route("/public", "Site\\Controllers\\IndexController");
+$router     = new \MicroMVC\Routing\Router(array($route1));
 
 /*
 |--------------------------------------------------------------------------

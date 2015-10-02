@@ -4,8 +4,8 @@
   },
   "autoload": {
     "psr-4": {
-      "MicroMVC\\": "MicroMVC/src/",
-      "Site\\": "app/"
+      "App\\": "app/",
+      "MicroMVC\\": "lib/MicroMVC/src"
     }
   }
 }

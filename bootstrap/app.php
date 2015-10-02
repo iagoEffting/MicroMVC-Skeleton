@@ -10,7 +10,10 @@
 | the IoC container for the system binding all of the various parts.
 |
 */
-$app = new \MicroMVC\Application($router);
+//$app = new \MicroMVC\Application($router);
+$app = new \MicroMVC\Application(
+  realpath('../')
+);
 
 
 /*
@@ -24,6 +27,30 @@ $app = new \MicroMVC\Application($router);
 |
 */
 $app->setRequest(new \MicroMVC\Http\Request($_SERVER['REQUEST_URI']));
+
+/*
+|--------------------------------------------------------------------------
+| Create The Application
+|--------------------------------------------------------------------------
+|
+| The first thing we will do is create a new Laravel application instance
+| which serves as the "glue" for all the components of Laravel, and is
+| the IoC container for the system binding all of the various parts.
+|
+*/
+$app->setConfigs($app->basePath().'/config/');
+
+/*
+|--------------------------------------------------------------------------
+| Create The Application
+|--------------------------------------------------------------------------
+|
+| The first thing we will do is create a new Laravel application instance
+| which serves as the "glue" for all the components of Laravel, and is
+| the IoC container for the system binding all of the various parts.
+|
+*/
+$app->setProviders($app->basePath().'/app/Providers/');
 
 /*
 |--------------------------------------------------------------------------

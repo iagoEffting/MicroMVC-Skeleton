@@ -1,5 +1,7 @@
 <?php
 
+namespace App\Providers;
+
 use Pimple\ServiceProviderInterface;
 
 class AppServiceProvider implements ServiceProviderInterface
@@ -10,9 +12,9 @@ class AppServiceProvider implements ServiceProviderInterface
    *
    * @return void
    */
-  public function register(\Pimple\Container $pimple)
+  public function register(\Pimple\Container $container)
   {
-    //
+
   }
 
 }
