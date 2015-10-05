@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use IagoEffting\MicroMVC\View\ViewModel;
+
 class IndexController
 {
 
@@ -11,7 +13,7 @@ class IndexController
   public function index()
   {
 
-    return "Index";
+    return new ViewModel("index/index");
   }
 
 }

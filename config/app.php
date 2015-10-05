@@ -21,9 +21,10 @@ return array(
 
   /*
    |--------------------------------------------------------------------------
-   | Configuração de localização
+   | Configuração da localização
    |--------------------------------------------------------------------------
    |
+   |  Utilizado para chamar o arquivo de idioma correspondente
    |
    */
   'locale' => 'pt-BR',
@@ -32,6 +33,9 @@ return array(
    |--------------------------------------------------------------------------
    | Configuração de Controllers
    |--------------------------------------------------------------------------
+   |
+   | Caminho dos controllers na aplicação
+   |
    */
   'Controllers' => 'app/Http/Controllers',
 
@@ -48,5 +52,6 @@ return array(
 
     App\Providers\AppServiceProvider::class,
     App\Providers\AnnotationsServiceProvider::class,
+
   )
 );

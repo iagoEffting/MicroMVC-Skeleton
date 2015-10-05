@@ -2,7 +2,7 @@
   "require": {
     "pimple/pimple": "~3.0",
     "jan-swiecki/simple-annotations": "0.3.1",
-    "iagoeffting/micro-mvc": "dev-master"
+    "iagoeffting/micro-mvc": "*"
   },
   "autoload": {
     "psr-4": {
