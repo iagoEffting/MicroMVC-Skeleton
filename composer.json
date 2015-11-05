@@ -1,12 +1,13 @@
 {
-  "require": {
-    "pimple/pimple": "~3.0",
-    "jan-swiecki/simple-annotations": "0.3.1",
-    "iagoeffting/micro-mvc": "dev-master"
-  },
-  "autoload": {
-    "psr-4": {
-      "App\\": "app/"
+    "require": {
+        "pimple/pimple": "~3.0",
+        "jan-swiecki/simple-annotations": "0.3.1",
+        "iagoeffting/micro-mvc": "dev-master",
+        "doctrine/orm": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
     }
-  }
 }

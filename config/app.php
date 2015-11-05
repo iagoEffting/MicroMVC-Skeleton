@@ -49,9 +49,9 @@ return array(
    |
    */
   'providers' => array(
-
-    App\Providers\AppServiceProvider::class,
-    App\Providers\AnnotationsServiceProvider::class,
+      App\Providers\AppServiceProvider::class,
+      App\Providers\AnnotationsServiceProvider::class,
+      App\Providers\DoctrineServiceProvider::class
 
   )
 );
