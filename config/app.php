@@ -51,7 +51,8 @@ return array(
   'providers' => array(
       App\Providers\AppServiceProvider::class,
       App\Providers\AnnotationsServiceProvider::class,
-      App\Providers\DoctrineServiceProvider::class
+      App\Providers\EloquentServiceProvider::class,
+      //App\Providers\DoctrineServiceProvider::class
 
   )
 );

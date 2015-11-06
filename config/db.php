@@ -1,14 +1,14 @@
 <?php
 
 return array(
-    'path_entity' => array(
-        'app/Entities'
-    ),
-    'dev_mode' => true,
     'params'  => array(
-        'driver'   => 'pdo_mysql',
-        'user'     => 'root',
-        'password' => '',
-        'dbname'   => 'teste_1',
+        'driver'    => 'mysql',
+        'host'      => 'localhost',
+        'database'  => 'teste_1',
+        'username'  => 'root',
+        'password'  => '',
+        'charset'   => 'utf8',
+        'collation' => 'utf8_unicode_ci',
+        'prefix'    => ''
     )
 );

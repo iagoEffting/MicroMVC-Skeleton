@@ -13,11 +13,11 @@ class IndexController
   public function index()
   {
 
-    $data = array(
-      'key' => 'value'
-    );
+      $data = array(
+          'key' => 'value'
+      );
 
-    return new ViewModel("index/index", $data);
+      return new ViewModel("index/index", $data);
   }
 
 }

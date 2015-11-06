@@ -3,7 +3,7 @@
         "pimple/pimple": "~3.0",
         "jan-swiecki/simple-annotations": "0.3.1",
         "iagoeffting/micro-mvc": "dev-master",
-        "doctrine/orm": "*"
+        "illuminate/database": "*"
     },
     "autoload": {
         "psr-4": {
