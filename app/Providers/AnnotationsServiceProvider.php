@@ -14,6 +14,7 @@ class AnnotationsServiceProvider implements ServiceProvider
 
   public function register(Container $container)
   {
+
     $pathController = $container['config']['app']['Controllers'];
     $path = realpath($container->offsetGet('basePath').'/'.$pathController);
 

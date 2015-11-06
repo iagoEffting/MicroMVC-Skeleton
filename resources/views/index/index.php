@@ -1,1 +1,2 @@
-IndexController::index()
+<?php
+echo $this->data['key'];
