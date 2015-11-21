@@ -7,17 +7,17 @@ use IagoEffting\MicroMVC\View\ViewModel;
 class IndexController
 {
 
-  /**
-   * @Route /
-   */
-  public function index()
-  {
+    /**
+     * @Route /
+     */
+    public function index()
+    {
 
-      $data = array(
-          'key' => 'value'
-      );
+        $data = array(
+            'key' => 'value'
+        );
 
-      return new ViewModel("index/index", $data);
-  }
+        return new ViewModel("index/index", $data);
+    }
 
 }

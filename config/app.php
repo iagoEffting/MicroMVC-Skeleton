@@ -10,14 +10,14 @@ return array(
    | as mensagens de erro e Notice.
    |
    */
-  'debug' => true,
+    'debug' => true,
 
   /*
    |--------------------------------------------------------------------------
    | Configuração do Fuso horário
    |--------------------------------------------------------------------------
    */
-  'timezone' => 'UTC',
+    'timezone' => 'UTC',
 
   /*
    |--------------------------------------------------------------------------
@@ -27,7 +27,7 @@ return array(
    |  Utilizado para chamar o arquivo de idioma correspondente
    |
    */
-  'locale' => 'pt-BR',
+    'locale' => 'pt-BR',
 
   /*
    |--------------------------------------------------------------------------
@@ -37,7 +37,7 @@ return array(
    | Caminho dos controllers na aplicação
    |
    */
-  'Controllers' => 'app/Http/Controllers',
+    'Controllers' => 'app/Http/Controllers',
 
   /*
    |--------------------------------------------------------------------------
@@ -48,11 +48,11 @@ return array(
    | requisições para a aplicação
    |
    */
-  'providers' => array(
-      App\Providers\AppServiceProvider::class,
-      App\Providers\AnnotationsServiceProvider::class,
-      App\Providers\EloquentServiceProvider::class,
-      //App\Providers\DoctrineServiceProvider::class
+    'providers' => array(
+        App\Providers\AppServiceProvider::class,
+        App\Providers\AnnotationsServiceProvider::class,
+        App\Providers\EloquentServiceProvider::class,
+        //App\Providers\DoctrineServiceProvider::class
 
-  )
+    )
 );

@@ -10,7 +10,7 @@ return array(
    | e depois irá chamar dentro dele a view, utilizando o método $this->content().
    |
    */
-  'template_view' => true,
+    'template_view' => true,
 
   /*
    |--------------------------------------------------------------------------
@@ -20,7 +20,7 @@ return array(
    | Caminho que os arquivos de View estarão
    |
    */
-  'template_file' => 'resources/views/template.php',
+    'template_file' => 'resources/views/template.php',
 
   /*
    |--------------------------------------------------------------------------
@@ -30,5 +30,5 @@ return array(
    | Caminho que os arquivos de View estarão
    |
    */
-  'path_views' => 'resources/views',
+    'path_views' => 'resources/views',
 );
